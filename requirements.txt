@@ -24,3 +24,4 @@ toml==0.10.2
 uritemplate==3.0.1
 urllib3==1.26.2
 jupyterlab==3.0.1
+numpy==1.19.5

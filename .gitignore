@@ -135,3 +135,5 @@ credentials.json
 token.pickle
 notebooks
 .vscode
+data
+secrets
