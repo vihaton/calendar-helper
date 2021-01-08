@@ -25,3 +25,4 @@ uritemplate==3.0.1
 urllib3==1.26.2
 jupyterlab==3.0.1
 numpy==1.19.5
+matplotlib==3.3.3
