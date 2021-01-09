@@ -14,12 +14,15 @@ SECRETS = '../secrets/'
 TOKEN = SECRETS + 'token.pickle'
 CREDS = SECRETS + 'credentials.json'
 
-def authenticate():
+
+def authenticate(verbose=False):
     '''
     Use either 1) existing token.pickle, or 2) credentials.json to authenticate against google auth API.
 
     return credentials
     '''
+    if verbose:
+        print(f'expect to find token in {TOKEN} and credentials in {CREDS}')
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
