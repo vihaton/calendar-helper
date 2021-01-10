@@ -133,7 +133,7 @@ dmypy.json
 
 credentials.json
 token.pickle
-notebooks
+notebooks/source
 .vscode
 data
 secrets
