@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "calendar-helper"
 version = "0.1.0"
@@ -23,3 +27,8 @@ dependencies = [
     "pandas>=1.1.5",
     "seaborn>=0.11.1",
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["source*"]
+exclude = ["notebooks*"]
